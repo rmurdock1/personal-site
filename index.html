@@ -3,16 +3,18 @@
   <head>
 
     <meta charset="utf-8">
-    <meta name="viewport" <content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Rashard Personal Site</title>
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <title>Rashard Personal Site</title>
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
 
   <body id="page-top">
 
-    <!--Navigation-->
-    <nav>
+    <!-- Navigation -->
+    <nav id="navbar">
       <div class= "container">
         <a href="#page-top">Rashard Murdock</a>
           <ul>
@@ -30,25 +32,26 @@
     </nav>
 
     <!--Header Intro-->
-    <header>
-      <div>
-        <h1>Welcome</h1>
-        <p>Digital Product Specialist</p>
+    <header class="master">
+      <div class="head">
+        <h1><span>Welcome</span></h1>
+        <p><span>Rashard Murdock</span></p>
+        <p><span>The Digital Product Specialist</span></p>
         <a href="#aboutme" class="button"></a>
       </div>
     </header>
 
     <!--About me-->
     <section id="aboutme">
-      <div>
         <h2>About Me</h2>
-        <p>My name is Rashard, glad to see you! If you have a project I have the answers</p>
-          <ul>
-            <li>Jira Managment</li>
-            <li>Full QA Test Strategy</li>
+        <div class ="about">
+        <p>Hi! If you havent noticed already my name is Rashard,<br /> Always glad to see you! If you have a project I have the answers</p>
+          <ul id="list">
+            <li>Certified Product Manager</li>
+            <li>Jira Project Managment</li>
+            <li>Full QA Test Strategy and Execution</li>
             <li>Requirements Gathering</li>
             <li>Effective Client Management</li>
-            <li>Certified Product Manager</li>
           </ul>
       </div>
     </section>
@@ -57,23 +60,36 @@
     <section id="skills">
       <div>
         <h2>Skills</h2>
-        <!--add photo gallery-->
+        <div class="gallery">
+          <div>
+            <img src="assets/images/logo1.png" alt="icon 1" style="width:300px;height:300px;"/>
+          </div>
+          <div>
+            <img src="assets/images/logo2.png" alt="icon 2" style="width:300px;height:300px;"/>
+          </div>
+          <div>
+            <img src="assets/images/logo3.png" alt="icon 3" style="width:300px;height:300px;"/>
+          </div>
+          <div>
+            <img src="assets/images/logo4.jpg" alt="icon 4" style="width:300px;height:300px;"/>
+          </div>
+          <div>
+            <img src="assets/images/logo5.png" alt="icon 5" style="width:300px;height:300px;"/>
+          </div>
+          <div>
+            <img src="assets/images/logo6.jpg" alt="icon 6" style="width:300px;height:300px;"/>
+          </div>
+        </div>
       </div>
     </section>
 
     <!--Contact Me-->
-    <section id="contact">
-      <div>
-        <h2>Contact Me Here</h2>
-        <p>Email:</p>
-      </div>
-    </section>
-
-
     <!--Footer-->
-    <footer>
-      <div class="footer">
-        <p>Copyright &copy; Rashard Murdock 2017</p>
+    <footer id="contact">
+      <div>
+        <h2><span>Contact Me Here</span></h2>
+        <a href="mailto:rmurdoc@yahoo?subject=Feedback"><span class = "email">RMURDOC@YAHOO.COM</span></a>
+        <p><span>Copyright &copy; Rashard Murdock 2017</span></p>
       </div>
     </footer>
 
