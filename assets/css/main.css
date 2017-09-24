@@ -17,18 +17,51 @@ html {
       letter-spacing: 2px;
       text-transform: uppercase;
       font-size: 200%;}
+/* Nav bar */
+      nav {
+        margin: 20px;
+      }
 
-#navbar {
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  border-bottom: 2px solid rgba(255,255,255,0.3);
-  background-color: black;
-  display: inline-block;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin-right: 16px;
-}
+      ul {
+        overflow: auto;
+        list-style-type: none;
+      }
+
+      li {
+        height: 25px;
+        float: left;
+        margin-right: 0px;
+        border-right: 1px solid #aaa;
+        padding: 0 10px;
+      }
+
+      li:last-child {
+        border-right: none;
+      }
+
+      li a {
+        text-decoration: none;
+        color: #ccc;
+        font-family: 'Raleway', sans-serif;
+        font-size: 150%;
+        text-transform: uppercase;
+
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+      }
+
+      li a:hover {
+        color: #665;
+      }
+
+      li.active a {
+        font-weight: bold;
+        color: #E84855;
+      }
+
 .master {
   display: table;
   width: 100%;
@@ -65,8 +98,9 @@ p span {
 }
 .about{
   font-size: 150%;
+  padding-right: 10px;
 }
-  .list {
+  dl {
     text-align: right;
   }
 
